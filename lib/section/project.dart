@@ -94,22 +94,54 @@ class ProjectsSection extends StatelessWidget {
             "A modern e-learning platform offering live classes, book reservations, and seamless teacher-student interaction through chat.",
         tags: ["RestAPI", "Online Streaming", "Payment Gateway"],
         imagePath: "assets/Image/Uthix_logo.png",
-        link: "https://example.com",
+        link:
+            "https://play.google.com/store/apps/details?id=com.uthix.uthix_app",
         samples: [
           ProjectSample(
             type: SampleType.image,
-            src: "assets/Image/uthix_screen1.png",
-            caption: "Live classes",
+            src: "assets/uthix/1.png",
+            caption: "App onboarding screens",
           ),
           ProjectSample(
             type: SampleType.image,
-            src: "assets/Image/uthix_screen2.png",
-            caption: "Course catalog",
+            src: "assets/uthix/Student Dashboard.jpeg",
+            caption: "Student dashboard",
+          ),
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/uthix/Student e-commerce part.jpeg",
+            caption: "E-commerce integration",
+          ),
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/uthix/Student classes.jpeg",
+            caption: " classes",
+          ),
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/uthix/Student Chatting Part.jpeg",
+            caption: "Chatting interface",
+          ),
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/uthix/Instructor dashboard.jpeg",
+            caption: "Instructor dashboard",
+          ),
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/uthix/Instructor Classroom.jpeg",
+            caption: "Instructor classroom management",
+          ),
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/uthix/Seller dashboard.jpeg",
+            caption: "Seller dashboard",
           ),
           ProjectSample(
             type: SampleType.link,
-            src: "https://example.com",
-            caption: "Product website",
+            src:
+                "https://play.google.com/store/apps/details?id=com.uthix.uthix_app",
+            caption: "Play Store listing",
           ),
         ],
       ),
