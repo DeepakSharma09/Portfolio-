@@ -1,6 +1,5 @@
-// lib/sections/projects_section.dart (your file)
+
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 import '../model/project.dart';
 import '../widget/Project_Sample_Viewer.dart';
 import '../widget/animated_ppear.dart';
@@ -14,6 +13,42 @@ class ProjectsSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final data = [
+      const Project(
+        title: "Mokhani",
+        description:
+            "A mobile application that enables aspiring talent to create comprehensive digital portfolios with photos, videos, and credentials, while connecting them directly with casting opportunities and contract offers from industry professionals",
+        tags: ["Flutter", "Node JS", "MVVM", "GetX", "APIs"],
+        imagePath: "assets/Image/Mokhani.png",
+        link: "",
+        samples: [
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/Mokhani/DashBoard.png",
+            caption: "DashBoard",
+          ),
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/Mokhani/Tranding Projects.png",
+            caption: "Tranding Projects",
+          ),
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/Mokhani/Portfolio.png",
+            caption: "PortFolio",
+          ),
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/Mokhani/profile.png",
+            caption: "Profile",
+          ),
+          // ProjectSample(
+          //   type: SampleType.link,
+          //   src:
+          //       "https://play.google.com/store/apps/details?id=com.launch.dhaba29",
+          //   caption: "Play Store listing",
+          // ),
+        ],
+      ),
       const Project(
         title: "Dhaba 29 — Restaurant Suite",
         description:

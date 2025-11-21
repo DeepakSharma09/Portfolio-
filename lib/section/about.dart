@@ -55,8 +55,8 @@ class AboutSection extends StatelessWidget {
                       spacing: 16,
                       runSpacing: 16,
                       children: [
-                        _Metric(label: "Projects", value: "2+"),
-                        _Metric(label: "Dashboards", value: "12+"),
+                        _Metric(label: "Projects", value: "4+"),
+                        _Metric(label: "Dashboards", value: "13+"),
                       ],
                     ),
                   ],
