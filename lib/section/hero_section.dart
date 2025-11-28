@@ -39,7 +39,7 @@ class HeroSection extends StatelessWidget {
                         color: AppTheme.primary.withValues(alpha: 0.3)),
                   ),
                   child: const Text(
-                      "Flutter • Dart • Payment Gateway •  Live Streaming •  REST API • MVVM • MVC "),
+                      "Flutter • Dart • Payment Gateway •  Live Streaming •  REST API • MVVM • MVC • WebSocket "),
                 ),
               ),
               const SizedBox(height: 16),

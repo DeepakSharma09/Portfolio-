@@ -11,7 +11,7 @@ class SkillsSection extends StatelessWidget {
   Widget build(BuildContext context) {
     final chips = [
       "Flutter", "Dart", "GetX","MVC","MVVM", "Live Stream", " Payment Gateway",
-      "Figma", "Clean Architecture", "REST APIs","FireBase"
+      "Figma", "Clean Architecture", "REST APIs","FireBase", "WebSocket", "Git", "GitHub"
     ];
 
     return SectionContainer(
