@@ -82,7 +82,7 @@ class HeroSection extends StatelessWidget {
                     OutlinedButton.icon(
                       onPressed: () {
                         const path =
-                            'resume/Deepak_Sharma_Flutter_Developer_Resume.pdf'; // relative to /web
+                            'resume/Deepak_Sharma_Resume.pdf'; // relative to /web
                         final a = html.AnchorElement(href: path)
                           ..download =
                               'Deepak_Resume.pdf' // forces "Save as"
