@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../theme.dart';
 import '../widget/animated_ppear.dart';
 import '../widget/responsive.dart';
-import 'dart:html' as html;
+import 'package:url_launcher/url_launcher.dart';
 
 class HeroSection extends StatelessWidget {
   final VoidCallback onContact;
@@ -80,17 +80,9 @@ class HeroSection extends StatelessWidget {
                       label: const Text("Contact Me"),
                     ),
                     OutlinedButton.icon(
-                      onPressed: () {
-                        const path =
-                            'resume/Deepak_Sharma_Resume.pdf'; // relative to /web
-                        final a = html.AnchorElement(href: path)
-                          ..download =
-                              'Deepak_Sharma_Resume.pdf' // forces "Save as"
-                          ..rel = 'noopener'
-                          ..target = '_self';
-                        html.document.body?.append(a);
-                        a.click();
-                        a.remove();
+                      onPressed: () async {
+                        final uri = Uri.parse('resume/Deepak_Sharma_Resume.pdf');
+                        await launchUrl(uri, webOnlyWindowName: '_self');
                       },
                       icon: const Icon(Icons.download),
                       label: const Text("Download Résumé"),
