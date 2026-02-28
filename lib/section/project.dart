@@ -180,6 +180,79 @@ class ProjectsSection extends StatelessWidget {
           ),
         ],
       ),
+      const Project(
+        title: "Criconet — Cricket Platform",
+        description:
+            "A feature-rich cricket platform with pavilion streaming, e-coaching sections, digital IDs with QR codes, and create highlights — connecting players, coaches, and fans.",
+        tags: ["Java", "XML", "Live Streaming", "E-Coaching"],
+        imagePath: "assets/Criconet/CriconetLogo.png",
+        link:
+            "https://play.google.com/store/apps/details?id=com.pb.criconet&hl=en_IN",
+        samples: [
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/Criconet/criconet Paviliion.jpeg",
+            caption: "Pavilion",
+          ),
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/Criconet/criconet Livestreaming .jpeg",
+            caption: "Live Streaming",
+          ),
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/Criconet/Criconet Livematch.jpeg",
+            caption: "Live Match",
+          ),
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/Criconet/Criconet Academy.jpeg",
+            caption: "Academy",
+          ),
+
+          ProjectSample(
+            type: SampleType.link,
+            src:
+                "https://play.google.com/store/apps/details?id=com.pb.criconet&hl=en_IN",
+            caption: "Play Store listing",
+          ),
+        ],
+      ),
+      const Project(
+        title: "CricoScore — Live Cricket Scoring",
+        description:
+            "A free cricket scoring and live match scoring app where users can score matches & tournaments, view live scores with deep match analysis, and build unique cricket profiles with history and stats — all ad-free.",
+        tags: ["Flutter", "Bloc/Cubit", "MVVM", "Under Development"],
+        imagePath: "assets/Criconet/CricoScore.jpeg",
+        link: null,
+        samples: [
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/Criconet/dashboard.jpeg",
+            caption: "Dashboard",
+          ),
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/Criconet/live.jpeg",
+            caption: "Live Scoring",
+          ),
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/Criconet/scoring.jpeg",
+            caption: "Match Scoring",
+          ),
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/Criconet/weagon wheel.jpeg",
+            caption: "Wagon Wheel Analysis",
+          ),
+          ProjectSample(
+            type: SampleType.image,
+            src: "assets/Criconet/commentry.jpeg",
+            caption: "Commentary",
+          ),
+        ],
+      ),
     ];
 
     final width = MediaQuery.sizeOf(context).width;

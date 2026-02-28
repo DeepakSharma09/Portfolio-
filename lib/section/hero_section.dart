@@ -85,7 +85,7 @@ class HeroSection extends StatelessWidget {
                             'resume/Deepak_Sharma_Resume.pdf'; // relative to /web
                         final a = html.AnchorElement(href: path)
                           ..download =
-                              'Deepak_Resume.pdf' // forces "Save as"
+                              'Deepak_Sharma_Resume.pdf' // forces "Save as"
                           ..rel = 'noopener'
                           ..target = '_self';
                         html.document.body?.append(a);
