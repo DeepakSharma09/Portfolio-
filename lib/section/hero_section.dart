@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../theme.dart';
 import '../widget/animated_ppear.dart';
 import '../widget/responsive.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class HeroSection extends StatelessWidget {
   final VoidCallback onContact;
@@ -39,7 +39,7 @@ class HeroSection extends StatelessWidget {
                         color: AppTheme.primary.withValues(alpha: 0.3)),
                   ),
                   child: const Text(
-                      "Flutter • Dart • Payment Gateway •  Live Streaming •  REST API • MVVM • MVC • WebSocket "),
+                      "Flutter • Dart • Payment Gateway •  Live Streaming •  REST API • MVVM • MVC • Clean Architecture • WebSocket "),
                 ),
               ),
               const SizedBox(height: 16),
@@ -81,7 +81,7 @@ class HeroSection extends StatelessWidget {
                     ),
                     OutlinedButton.icon(
                       onPressed: () async {
-                        final uri = Uri.parse('resume/Deepak_Sharma_Resume.pdf');
+                        final uri = Uri.parse('resume/DEEPAK RESUME.pdf');
                         await launchUrl(uri, webOnlyWindowName: '_self');
                       },
                       icon: const Icon(Icons.download),
